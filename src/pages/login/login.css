@@ -1,0 +1,11 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  text-align: center;
+  width: 500px;
+}
