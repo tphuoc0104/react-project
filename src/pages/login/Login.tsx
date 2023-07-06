@@ -1,23 +1,29 @@
 import React from 'react'
-import styled from 'styled-components'
 import './login.css'
-import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
-import CardContent from '@mui/material/CardContent';
-import CardActions from '@mui/material/CardActions';
+import TextField from '@mui/material/TextField';
+import { Button } from '@mui/material';
+import LoginIcon from '@mui/icons-material/Login';
 
 
 
 const Login = () => {
   return (
-    <div className='login' >
+    <div className='login'>
       <div className="card">
-        <Card className="Card" sx={{ minWidth: 500 }}>
-          <CardHeader>Login</CardHeader>
-          <CardContent>
-            hi
-          </CardContent>
-        </Card>
+        <div className="introduction">
+          <div className="text">
+            <h1>Welcome to the Platform</h1>
+            <p>This is the social media platform for my portfolio project. welcome to my site</p>
+            <p>Don't have a account ? <span>Register!</span></p>
+          </div>
+        </div>
+        <div className='login-form'>
+          <h1 className='header'>Login</h1>
+          <TextField variant='filled' type='email' name='email' label='Email' id="Email"/>
+          <TextField variant='filled' type='password' name='password' label='password' id="passWord"/>
+          <Button variant="contained" sx={{width:'70%', margin: '10px'}} startIcon={<LoginIcon />} color='secondary'>Login</Button>
+          <p className='forget-password'>forgot password</p>
+        </div>
       </div>
     </div>
   )
