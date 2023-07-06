@@ -19,8 +19,8 @@ const Login = () => {
         </div>
         <div className='login-form'>
           <h1 className='header'>Login</h1>
-          <TextField variant='filled' type='email' name='email' label='Email' id="Email"/>
-          <TextField variant='filled' type='password' name='password' label='password' id="passWord"/>
+          <TextField margin='normal' variant='filled' type='email' name='email' label='Email' id="Email"/>
+          <TextField margin='normal' variant='filled' type='password' name='password' label='password' id="passWord"/>
           <Button variant="contained" sx={{width:'70%', margin: '10px'}} startIcon={<LoginIcon />} color='secondary'>Login</Button>
           <p className='forget-password'>forgot password</p>
         </div>

@@ -1,0 +1,17 @@
+.register {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items:center;
+
+}
+
+.register-form * {
+
+}
