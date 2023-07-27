@@ -1,5 +1,6 @@
 import React from 'react'
 import './login.css'
+import { Link } from 'react-router-dom'
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
 import LoginIcon from '@mui/icons-material/Login';
@@ -14,7 +15,7 @@ const Login = () => {
           <div className="text">
             <h1>Welcome to the Platform</h1>
             <p>This is the social media platform for my portfolio project. welcome to my site</p>
-            <p>Don't have a account ? <span>Register!</span></p>
+            <p>Don't have a account ? <Link to="/Register"><span>Register!</span></Link></p>
           </div>
         </div>
         <div className='login-form'>
