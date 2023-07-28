@@ -33,7 +33,7 @@ const Menu = () => {
         </div>
 
         <div className="messages nav-item">
-          <Link to="/message">
+          <Link to="/message" style={{fontStyle: "none"}}>
             <span className="icon">
               <MailOutlineIcon />
             </span>

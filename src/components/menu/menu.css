@@ -1,4 +1,9 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
 .menu {
+    height: 100%;
     box-sizing: border-box;
     font-size: 20px;
     margin-top:16px;
@@ -7,6 +12,7 @@
     flex-direction: column;
     margin:0;
     padding: 8px 12px;
+    border-right: 0.5px solid black;
 }
 
 .logo {
@@ -26,11 +32,10 @@
 }
 
 .nav-item {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center items horizontally */
+    text-decoration: none;
 }
 
 .icon {
-    margin-right: 8px;
+    vertical-align: top;
+    margin-right: 2px;
 }
